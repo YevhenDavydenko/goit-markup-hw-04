@@ -113,13 +113,15 @@ ol {
   display: flex;
   margin-left: auto;
 }
-.contact-nav :hover,
-.contact-nav :focus {
-  color: var(--accent-tex-color--);
+.mailto-nav,
+.tel-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .mailto,
 .tel {
-  display: block;
+  display: flex;
+  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -128,15 +130,31 @@ ol {
 
   text-decoration: none;
   color: var(--primary-tex-color--);
-  padding-top: 32px;
-  padding-bottom: 32px;
+
+  fill: currentColor;
 }
-.mailto-nav {
-  width: 135px;
+.icon-nav {
+  margin-right: 10px;
 }
 .tel-nav {
-  width: 122px;
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+.mailto:hover,
+.mailto:focus {
+  color: var(--accent-tex-color--);
+  fill: var(--accent-tex-color--);
+}
+
+.tel:hover,
+.tel:focus {
+  color: var(--accent-tex-color--);
+  fill: var(--accent-tex-color--);
+}
+.icon-nav:hover,
+.icon-nav:focus {
+  fill: var(--accent-tex-color--);
+  cursor: pointer;
 }
 
 /* Герой */
