@@ -230,19 +230,19 @@ ol {
 /* Чем мы занимаемся */
 
 .study,
-.command {
+.command,
+.clients {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
+  margin-bottom: 50px;
+
   color: var(--title-tex-color--);
 }
 
-.study {
-  margin-bottom: 50px;
-}
 .box {
   display: flex;
   flex-basis: calc(100% / 3);
@@ -259,9 +259,7 @@ ol {
   max-width: 1600px;
   margin: 0 auto;
 }
-.command {
-  margin-bottom: 50px;
-}
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -303,6 +301,28 @@ ol {
   background-color: var(--White-color--);
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/* ПОСТОЯННЫЕ КЛИЕНТЫ */
+
+.clients-item {
+  display: flex;
+  flex-basis: calc(100% / 6);
+}
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.client:not(:first-child) {
+  margin-left: 30px;
 }
 
 /* Футер */
