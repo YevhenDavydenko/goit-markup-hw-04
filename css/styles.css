@@ -220,9 +220,12 @@ ol {
   list-style: none;
 }
 .feature-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
+
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -279,11 +282,8 @@ ol {
 
 /* Наша команда */
 
-.cards-team {
+.section-team {
   background-color: #f5f4fa;
-
-  max-width: 1600px;
-  margin: 0 auto;
 }
 .team {
   display: flex;
