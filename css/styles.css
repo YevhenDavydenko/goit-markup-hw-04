@@ -258,9 +258,9 @@ ol {
 
 /* Чем мы занимаемся */
 
-.study,
-.command,
-.clients {
+.study-title,
+.command-title,
+.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -282,10 +282,10 @@ ol {
 
 /* Наша команда */
 
-.section-team {
+.team {
   background-color: #f5f4fa;
 }
-.team {
+.team-item {
   display: flex;
   text-align: center;
 }
@@ -542,6 +542,7 @@ ol {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
+  color: var(--White-color--);
   background-color: var(--accent-tex-color--);
   cursor: pointer;
 }
