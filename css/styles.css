@@ -362,7 +362,8 @@ ol {
   display: flex;
   flex-basis: calc(100% / 6);
 }
-.client-logo:hover {
+.client-logo:hover,
+.client-logo:focus {
   border: 1px solid var(--accent-tex-color--);
   color: var(--accent-tex-color--);
 }
@@ -491,7 +492,8 @@ ol {
 .join-item {
   margin-right: 10px;
 }
-.join-item :hover {
+.join-item :hover,
+.join-item :focus {
   background-color: var(--accent-tex-color--);
 }
 .footer-nav {
